@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+}
+/* Style général du body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    /*background: url('https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?cs=srgb&dl=pexels-codioful-7130560.jpg&fm=jpg') no-repeat center center fixed;*/
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir toute la page */
+}
+
+
+                        /***** NAV BARRE EN DESSOUS ****/
+
+/* Style de la barre de navigation */
+nav {
+    display: flex;
+    justify-content: center; /* Centre la barre de navigation horizontalement */
+    align-items: center; /* Aligne les éléments verticalement */
+    margin: 20px 0; /* Ajoute un espace en haut et en bas de la barre */
+}
+
+/* Style des liens dans la barre de navigation */
+nav a {
+    text-transform: uppercase; /* Met le texte en majuscule */
+    margin: 0 15px; /* Ajoute un espace horizontal entre chaque lien */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: #000; /* Définit la couleur du texte des liens */
+}
+
+/* Optionnel : Style des liens au survol */
+nav a:hover {
+    color: #007bff; /* Change la couleur des liens lorsqu'ils sont survolés */
+}
+
+/* Style des liens dans la barre de navigation */
+nav a {
+    text-transform: uppercase; /* Met le texte en majuscule */
+}
+
+                    /***** NAV BARRE AU DESSUS ****/
+
+.mon-job {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 15px 100px;
+    position: relative;
+    width: max-content;
+    text-align: center;
+}
+.mon-job > img{
+    width: 100px;
+    position: absolute;
+    left: 50px;
+    top: -50px;
+}
+.mon-job > p{
+    font-size: 20px;
+}
+
+
+
+
+
+                /**** PARTIE COMPETENCE EN DESSOUS*****/
+
+#Competences  {
+    text-align: center;
+}
+
+#skills {
+    background-color: #f0f0f0; /* Couleur de fond pour la bande horizontale */
+    padding: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-column {
+    width: 45%; /* Chaque colonne prend 45% de la largeur */
+}
+
+.skills-column h3 {
+    text-align: center;
+}
+
+.skills-column ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0;
+    text-align: center;
+}
+
+.skills-column ul li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+                         /**** PARTIE COMPETENCE AU DESSUS*****/
+                        /**** PARTIE CONTACT EN DESSOUS*****/
+
+/* Style de la section Contact */
+#contact {
+    background-color: #f9f9f9; /* Couleur de fond légèrement grise */
+    padding: 20px; /* Ajoute un espace autour du contenu */
+    border-radius: 8px; /* Bords arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère autour de la section */
+    text-align: center; /* Centre le texte */
+}
+
+/* Style des informations de contact */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espacement entre les éléments */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacement entre l'icône et le texte */
+}
+
+.contact-item i {
+    font-size: 24px; /* Taille des icônes */
+    color: #333; /* Couleur des icônes */
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+.contact-item a {
+    color: #007bff; /* Couleur des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+.contact-item a:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+}
