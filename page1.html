@@ -8,6 +8,96 @@
     <link rel="stylesheet" href="./asset/style.css">
 </head>
 <body>
-    
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Contact</a>
+        <a href="#">Ma personnalité</a>
+        <a href="#">Mes réalisations</a>
+    </nav> 
+    <div class="sidebar">
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-solid fa-hashtag"></i></a>
+        <a href=""><i class="fa-solid fa-hashtag"></i></a>
+        <a href=""><i class="fa-solid fa-hashtag"></i></a>
+        <a href=""><i class="fa-solid fa-hashtag"></i></a>
+        <a href=""><i class="fa-solid fa-hashtag"></i></a>
+    </div>
+    <title>Expérience Professionnelle</title>
+    <style>
+        /* Mise en page avec trois colonnes */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 auto;
+        }
+
+        /* Colonne de gauche : Image */
+        .left {
+            width: 20%; /* Ajustez la largeur si nécessaire */
+            padding: 10px;
+        }
+
+        .left img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Colonne du milieu : Texte */
+        .center {
+            width: 50%; /* Ajustez la largeur si nécessaire */
+            padding: 20px;
+            text-align: center;
+            border-left: 2px solid #ddd;
+            border-right: 2px solid #ddd;
+        }
+
+        .center h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .center p {
+            margin: 5px 0;
+        }
+
+        /* Colonne de droite : Carte Google Maps */
+        .right {
+            width: 25%; /* Ajustez la largeur si nécessaire */
+            padding: 10px;
+        }
+
+        .map {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Colonne de gauche : Image -->
+        <div class="left">
+            <img src="./asset/media/HSN.png" alt="Image illustrative">
+        </div>
+
+        <!-- Colonne du milieu : Texte -->
+        <div class="center">
+            <h1>Chargée de mission SIG</h1>
+            <p><strong>JANVIER 2019 - OCTOBRE 2019</strong></p>
+            <p>Syndicat mixte Haute-Saône Numérique à Vesoul 70000 France</p>
+            <p><strong>Logiciels SIG :</strong> ArcGIS/ QGIS, SGBD PostgreSQL, ETL FME, Webcarto Lizmap, NetGeo</p>
+        </div>
+
+        <!-- Colonne de droite : Carte Google Maps -->
+        <div class="right">
+            <iframe 
+                class="map" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.5430635719824!2d6.147556115431012!3d47.620446479184616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478d7e8ea848409d%3A0x1b0c9cbcf12050e1!2sSyndicat%20Mixte%20Haute-Sa%C3%B4ne%20Num%C3%A9rique!5e0!3m2!1sfr!2sfr!4v1615043300439!5m2!1sfr!2sfr" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
 </body>
 </html>
